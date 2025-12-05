@@ -1,0 +1,221 @@
+h1, h2, h3, h4 {
+  margin-top: 1em;
+  margin-bottom: .8em;
+  font-weight: 500;
+  line-height: 1.15;
+  font-family: "Oswald",Arial,Helvetica,sans-serif;
+  color: #232d4b;
+  border-bottom: none;
+}
+
+h1.title {
+  /*padding-bottom: 1rem;*/
+  text-decoration: none;
+ /*border-bottom: 2px solid #3991d1;*/
+}
+
+h1.title::after {
+  display: block;
+  content: " ";
+  height: 4px;
+  width: 50px;
+  background: #ff5a5f;
+  margin: 1.5rem 0;
+}
+
+/*section.level2 {
+  margin-top: 3rem;
+}*/
+
+body {
+  font-family: "Poppins",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/*section.level2 h2 {
+padding: 4px 22px;
+border-left: 6px solid #3991d1;
+}*/
+
+.downloadBtn {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  color: #232d4b !important;
+  padding: .25rem 0;
+}
+
+.downloadBtn svg {
+  fill: #232d4b !important;
+}
+
+.navbar-dark {
+  background-color: white;
+}
+
+.navbar-title {
+    font-family: "Oswald", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: .02rem;
+    color: #232d4b;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.2rem;
+}
+}
+
+.navbar-nav .nav-link.active {
+  color: #232d4b;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Oswald",Arial,sans-serif;
+  color: #232d4b !important;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+footer.footer .nav-footer {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.nav-footer {
+/*  padding-top: 40px;
+  margin: 0 auto 20px auto;*/
+  color: #646464;
+/*  padding-top: .5rem;
+  padding-bottom: .5rem;*/
+  background-color: #f7faff;
+}
+
+.quarto-title-banner {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.quarto-title-block .home-banner {
+  background-image: url(images/detail.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.quarto-title-banner .quarto-title .title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card {
+  border: none;
+  border-bottom: 5px solid #3991D1;
+}
+
+h5.listing-title {
+  margin-top: 0;
+  margin-bottom: .8em !important;
+  font-family: "Oswald", Arial, sans-serif;
+  color: #232d4b;
+  font-size: calc(1rem + .6vw);
+  font-weight: 500;
+  line-height: 1.4;
+  
+}
+
+.post-link {
+  display: inline-block;
+ /* margin-top: 1.5rem;*/
+  color: #232d4b !important;
+  font-size: 18px;
+  line-height: 1.6;
+  text-decoration: none;
+  border-bottom: 2px solid #3991d1;
+  max-width: max-content;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+
+
+div.hero-container {
+  margin: auto;
+}
+div.post-update-text {
+  background-color: rgba(255,255,255,.95);
+  padding: 45px 86px;
+}
+.post-update-text .heading, .post-update-text .description {
+  color: #646464;
+  line-height: normal;
+}
+
+.post-update-text .line, .project-card .line {
+  width: 30px;
+  height: 4px;
+  background-color: #ff5a5f;
+  margin: 20px 0;
+}
+
+.post-update-text .banner-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #232d4b;
+  /*font-size: 2em;*/
+  font-size: calc(1.325rem + 0.9vw);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.post-update-text .heading, .post-update-text .description {
+  color: #646464;
+  line-height: normal;
+}
+
+
+div.header-image {
+  width: 100%;
+  max-width: none;
+  height: 680px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(5,47,95,.2);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+@media screen and (max-width: 768px) {
+  div.hero-container {
+    top: 0;
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  div.hero-container div.post-update-text {
+    padding: 1.5rem 7.5%;
+  }
+  
+  .post-update-text .heading, .post-update-text .line {
+    display: none;
+  }
+}
+

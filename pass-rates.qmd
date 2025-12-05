@@ -3,7 +3,7 @@ title: "School Division SOL Test Pass Rates"
 description: "Reading and Math SOL test pass rates by grade and school division, highlighting the Commonwealth's overall performance in the education of Virginia's children over time."
 date: December 2025
 date-format: "[Last Updated:] MMMM YYYY"
-image: images/unsplash-classroom.JPG
+image: images/unsplash-classroom.jpg
 format: 
   html:
     toc: false

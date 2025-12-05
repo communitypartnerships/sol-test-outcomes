@@ -1,0 +1,60 @@
+---
+pagetitle: "Reading and Math SOL Test Outcomes in Virginia"
+listing:
+  id: home-listings
+  type: grid
+  grid-columns: 3
+  sort: false
+  image-placeholder: images/ccp-grid-image.png
+  fields: [image, title, subtitle, description, date]
+  date-format: "[Last Updated:] MMMM YYYY"
+  contents:
+    - "reading-gaps.qmd"
+    - "math-gaps.qmd"
+    - "pass-rates.qmd"
+format:
+  html:
+    toc: false
+    link-external-newwindow: true
+    backgroundcolor: "#f7faff"
+    grid:
+      body-width: 950px
+execute:
+  cache: true
+  echo: false
+  message: false
+  warning: false
+---
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full" style="top: calc(-14px - 1rem);">
+<div class="quarto-title-banner page-columns page-full">
+<div class="quarto-title column-body">
+<div class="hero-container">
+<div class="post-update-text">
+<h1 class="banner-title"><span>Reading and Math SOL Test Outcomes in Virginia</span></h1>
+<p class="description">The Reading and Math SOL Test Outcomes in Virginia site provides Virginia Department of Education data on the Commonwealth's Standards of Learning (SOL) assessments to visually illuminate the significant gaps in reading and math pass rates -- between Black students as compared to their White peers, between economically disadvantaged students as compared to their more fortunate classmates, and between English Learner students as compared to their non-English Learner peers.
+
+Research shows that lack of reading and math proficiency have long-lasting impacts on future educational attainment, future earnings, and more. We seek to make this data easier to use for explorative purposes, as a call to action, and hopefully, as a manner by which localities can track progress in eliminating these gaps, and working towards the goal of reading and math proficiency for all students.</p>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- ::: {style="font-size: 1.1rem;"}  -->
+
+<!-- The Reading and Math SOL Test Outcomes in Virginia site provides Virginia Department of Education data on the Commonwealth's Standards of Learning (SOL) assessments to visually illuminate the significant gaps in reading and math pass rates -- between Black students as compared to their White peers, between economically disadvantaged students as compared to their more fortunate classmates, and between Hispanic students as compared to their non-Hispanic peers.  -->
+
+<!-- Research shows that lack of reading and math proficiency have long-lasting impacts on future educational attainment, future earnings, and more. We seek to make this data easier to use for explorative purposes, as a call to action, and hopefully, as a manner by which localities can track progress in eliminating these gaps, and working towards the goal of reading and math proficiency for all students. -->
+
+<!-- ::: -->
+
+
+::: {#home-listings}
+:::
+
+::: {style="margin-top:1.5rem;"}
+This project was created and updated by Community-Centered Analysis Research Staff at the [UVA Center for Community Partnerships](https://communitypartnerships.virginia.edu/community-centered-analysis).
+:::
+

@@ -1,4 +1,7 @@
-.DS_Store
+# Quarto website files
+/.quarto/
+/_site/
+/_freeze/
 
 # History files
 .Rhistory
@@ -49,3 +52,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# other files
+.DS_Store
+test/
+hold/
+tempdata/

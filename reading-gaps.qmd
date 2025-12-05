@@ -1,0 +1,25 @@
+---
+title: "Reading SOL Test Gaps"
+description: "Overall reading gaps by school division, estimating the overall SOL test reading pass rates for students in grades 3-8 by school division, year, and demographic group. Please see our [methods page](methods.qmd) page for more on how we obtained these estimates."
+date: December 2025
+date-format: "[Last Updated:] MMMM YYYY"
+image: images/child-book.jpg
+format: 
+  html:
+    toc: false
+    link-external-newwindow: true
+    grid:
+      body-width: 950px
+---
+
+<!-- ::: {style="font-size: 1.1rem;"}  -->
+
+<!-- Using data from the Virginia Department of Education on SOL Reading test pass rates, we estimated the overall SOL pass rates for students in grades 3-8 by school division, year, and demographic group. Please see our [methods page](methods.qmd) for more on how we obtained these estimates.  -->
+
+<!-- ::: -->
+
+::: {.column-page-inset}
+
+<iframe height="2400" width="100%" frameborder="no" src="https://virginiaequitycenter.shinyapps.io/reading_gaps/" scrolling="no"> </iframe>
+
+:::

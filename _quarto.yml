@@ -1,0 +1,52 @@
+project:
+  type: website
+  render:
+    - "index.qmd"
+    - "reading-gaps.qmd"
+    - "math-gaps.qmd"
+    - "pass-rates.qmd"
+    - "methods.qmd"
+    - "404.qmd"
+    - "!shinyapps/"
+  resources: 
+    - "images/"
+website:
+  favicon: images/favicon.ico
+  google-analytics: "G-YZ1YLBWGGG"
+  open-graph: 
+    image: images/ccp-image-card.png
+  search: false
+  title: "SOL Test Outcomes in Virginia"
+  navbar:
+    background: light
+    left:
+      # - href: index.qmd
+      #   text: Home
+      - href: reading-gaps.qmd
+        text: Reading Test Gaps
+      - href: math-gaps.qmd
+        text: Math Test Gaps
+      - href: pass-rates.qmd
+        text: Pass Rates
+    right:
+      - href: https://communitypartnerships.github.io/data-resources/
+        text: Charlottesville Regional Data Resources
+        icon: box-arrow-up-right
+        target: _blank
+  page-footer:
+    background: light
+    left: |
+      [![](/images/uva-ccp-color.png){fig-alt="Center for Community Partnerships at UVA" width=320px }](https://communitypartnerships.virginia.edu/)
+    right:
+      - href: index.qmd
+        text: "VA SOL Test Outcomes Home"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
+

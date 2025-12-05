@@ -1,0 +1,36 @@
+---
+title: Page Not Found
+listing:
+  - id: 404-reports
+    type: grid
+    grid-columns: 3
+    sort: false
+    image-placeholder: images/ccp-grid-image.png
+    fields: [image, title, date, categories]
+    date-format: "MMMM YYYY"
+    contents:
+      - "reading-gaps.qmd"
+      - "math-gaps.qmd"
+      - "pass-rates.qmd"
+format: 
+  html: 
+    include-in-header:
+    - text: |
+        <style>
+          h1.title {
+            text-align: center !important;
+          }
+          h1.title::after {
+            margin: 1.5rem auto !important;
+          }
+        </style>
+---
+:::{.text-center}
+The requested page could not be found.
+
+Looking for one of our SOL Test Outcomes pages?
+
+::: {#404-reports}
+:::
+
+:::

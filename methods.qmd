@@ -1,0 +1,21 @@
+---
+title: "Virginia's SOL Test Pass Rates: Division Gap Estimates Methods"
+format: 
+  html:
+    toc: false
+    link-external-newwindow: true
+    grid:
+      body-width: 950px
+---
+
+### Approach
+
+The overall division gap estimates uses data from the Virginia Department of Education, using the ["Build-a-Table" functions](https://p1pe.doe.virginia.gov/apex/f?p=152:1:10330908492500:::::). The number of relevant students and the pass rates are used to create a simulated student-level data set. If a school division indicates 100 economically disadvantaged 8th graders took the 8th grade reading SOL and 75 of them passed, the simulated data will contain 75 observations coded as economically disadvantaged, 8th grade, and passing, and 25 observations coded as economically disadvantaged, 8th grade, and not passing. This process generates a simulated data point for each student represented in the summary data as provided by VDOE. We use this simulated individual data to estimate a mixed-effects logit model of pass rates in each year, with students nested in their school division. Pass rates are modeled as a function of the relevant characteristic (race, ethnicity, economically advantaged/disadvantaged), allowing for both a random intercept and random coefficient. The model for each gap estimate is
+
+$$ P(Y_{ij} = 1|Division_j)  = logit^{-1}(\alpha_j + x_{ij}\beta_j) $$
+
+Where $x_{ij}$ represents the demographic group for student $i$ in division $j$, $\alpha_j \sim N(0, \sigma_{\alpha})$, and $\beta_j \sim N(0, \sigma_{\beta})$.
+
+From the resulting model we estimate predicted pass rates for each group of students (Black-White, Hispanic-White, Economically Disadvantaged-Advantaged) and plot these estimates in the summary figure. Clicking through the years provides an overview of the reading gaps by division over time.
+
+The data we pulled and our code are available on GitHub. We used the lme4 package in R to fit the generalized linear multilevel model which uses the adaptive Gauss-Hermite approximation to the log-likelihood.

@@ -1,0 +1,27 @@
+---
+title: "School Division SOL Test Pass Rates"
+description: "Reading and Math SOL test pass rates by grade and school division, highlighting the Commonwealth's overall performance in the education of Virginia's children over time."
+date: December 2025
+date-format: "[Last Updated:] MMMM YYYY"
+image: images/unsplash-classroom.JPG
+format: 
+  html:
+    toc: false
+    link-external-newwindow: true
+    grid:
+      body-width: 950px
+---
+
+<!-- The Virginia Standards of Learning (SOL) assessments establish the expectations for student learning at the end of each grade in core subjects. Students in Virginia take these exams in May from 3rd to 12th grade. Below, we have compiled pass rates for SOL assessments for 3rd grade Reading. -->
+
+<!-- As detailed in an [Annie E. Casey report](https://www.aecf.org/resources/early-warning-why-reading-by-the-end-of-third-grade-matters), third grade reading is a critical educational milestone marking a transition from 'learning to read' to 'reading to learn' and low proficiency by the end of third grade has a detrimental impact on a child's future. As such, SOL test scores in third grade are of particular importance for educators and administrators. For this reason, we have provided Reading SOL test pass rates for the third grade across Virginia school districts from 2006 to 2024 below. -->
+
+<!-- After the 6th grade, students place into different math classes (Math 7, Algebra I, Geometry, etc.) in accordance with their retention of previous years' concepts as understood through grades and SOL test scores. As such, 6th grade Math SOL test scores have particular relevance. For this reason, we have provided Math SOL test pass rates for the sixth grade across Virginia school districts from 2006 to 2024 below.  -->
+
+<!-- Pass rates are shown below by school division and for Virginia students overall for the years 2006-2024. In 2013, VDOE adopted revised standards and other changes to the SOLs making results not directly comparable to those from prior years. For information on other grades, data can be collected from the Virginia Department of Education's website. -->
+
+::: {.column-page-inset}
+
+<iframe height="2000" width="100%" frameborder="no" src="https://virginiaequitycenter.shinyapps.io/pass_rates/" scrolling="no"> </iframe>
+
+:::
